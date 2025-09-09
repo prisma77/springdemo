@@ -5,7 +5,7 @@
            http://www.springframework.org/schema/beans
            https://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="person1" class="com.prisma77.di1.Person" scope="singleton">
+    <bean id="person1" class="com.prisma77.di.Person" scope="singleton">
             <property name="name" value="문진우"/>
             <property name="address" value="하남"/>
             <property name="age" value="25"/>

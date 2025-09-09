@@ -1,4 +1,4 @@
-package com.prisma77.di2;
+package com.prisma77.di.di2;
 
 public class UserDaoJdbcImp implements UserDao{
     @Override

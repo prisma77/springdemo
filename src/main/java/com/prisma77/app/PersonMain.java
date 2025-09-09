@@ -1,6 +1,6 @@
 package com.prisma77.app;
 
-import com.prisma77.di1.Person;
+import com.prisma77.di.Person;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 

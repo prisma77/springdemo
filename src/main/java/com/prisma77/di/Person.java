@@ -1,4 +1,4 @@
-package com.prisma77.di1;
+package com.prisma77.di;
 
 public class Person {
     private String name;
