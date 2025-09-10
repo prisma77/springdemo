@@ -3,6 +3,12 @@ package com.prisma77.di.di3;
 public class MemberServiceWithSetter {
     private MemberRepository memberRepository;
 
+
+
+    public MemberServiceWithSetter() {
+        System.out.println("MemberServiceWithSetter");
+    }
+
     public void setMemberRepository(MemberRepository memberRepository) {
         this.memberRepository = memberRepository;
     }
