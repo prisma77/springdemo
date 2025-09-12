@@ -15,9 +15,8 @@ public class HomeController {
     }
 
 
-    @GetMapping("/message")
-    public String message(Model model){
-        model.addAttribute("msg", "스프링");
-        return "show";
+    @GetMapping("/edutest")
+    public String edutest(Model model){
+        return  "edutest";
     }
 }
